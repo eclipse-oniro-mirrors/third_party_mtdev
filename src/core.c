@@ -358,10 +358,8 @@ int mtdev_init(struct mtdev *dev)
 	dev->state = calloc(1, sizeof(struct mtdev_state));
 	if (!dev->state)
 		return -ENOMEM;
-	for (i = 0; i < DIM_FINGER; i++) {
+	for (i = 0; i < DIM_FINGER; i++)
 		dev->state->data[i].tracking_id = MT_ID_NULL;
-		dev->state->data[i].tool_type = MT_ID_NULL;
-	}
 	return 0;
 }
 
