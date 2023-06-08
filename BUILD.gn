@@ -35,6 +35,6 @@ ohos_shared_library("libmtdev") {
 
   public_deps = []
 
-  part_name = "input"
+  part_name = "mtdev"
 }
 ## Build libmtdev.so }}}
