@@ -1,6 +1,10 @@
 import("//build/ohos.gni")
 
 ## Build libmtdev.so {{{
+
+mtdev_path = rebase_path("//third_party/mtdev")
+exec_script("install.sh", [ "$mtdev_path" ])
+
 config("libmtdev_config") {
   visibility = [ ":*" ]
 
