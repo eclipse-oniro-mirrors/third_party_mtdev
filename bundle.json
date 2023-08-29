@@ -19,8 +19,8 @@
         "syscap": [],
         "features": [],
         "adapted_system_type": [ "standard" ],
-        "rom": "",
-        "ram": "",
+        "rom": "400KB",
+        "ram": "800KB",
         "deps": {
             "components": [],
             "third_party": []
