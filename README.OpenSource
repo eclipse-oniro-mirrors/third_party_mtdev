@@ -1,6 +1,6 @@
 [
   {
-   "Name":"mtdev",
+   "Name":"openEuler:mtdev",
    "License":"MIT License",
    "License File":"COPYING",
    "Version Number":"1.1.6-3.oe2203sp3",
