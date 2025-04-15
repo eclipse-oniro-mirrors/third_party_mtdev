@@ -1,11 +1,11 @@
 [
   {
-   "Name":"mtdev",
+   "Name":"openEuler:mtdev",
    "License":"MIT License",
    "License File":"COPYING",
-   "Version Number":"1.1.7",
+   "Version Number":"1.1.6-3.oe2203sp3",
    "Owner":"gaoshangqi1@huawei.com",
-   "Upstream URL":"https://bitmath.org/code/mtdev/mtdev-1.1.7.tar.gz",
+   "Upstream URL":"https://repo.openeuler.org/openEuler-22.03-LTS-SP3/source/Packages/mtdev-1.1.6-3.oe2203sp3.scr.rpm",
    "Description": "The mtdev library transforms all variants of kernel MT events to the slotted type B protocol"
   }
 ]
