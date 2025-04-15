@@ -14,10 +14,10 @@
 
 set -e
 cd $1
-if [ -d "mtdev-1.1.7" ];then
-    rm -rf mtdev-1.1.7
+if [ -d "mtdev-1.1.6" ];then
+    rm -rf mtdev-1.1.6
 fi
-tar xvf mtdev-1.1.7.tar.gz
-cp -rf mtdev-1.1.7/* ./
+tar xvf mtdev-1.1.6.tar.bz2
+cp -rf mtdev-1.1.6/* ./
 ./configure
 exit 0

@@ -56,8 +56,8 @@ cp -fra $source_dir/* $out_dir
 
 if [ -e "$out_dir/install.sh" ]; then
     cd $out_dir
-    tar xvf mtdev-1.1.7.tar.gz
-    cp -rf mtdev-1.1.7/* ./
+    tar xvf mtdev-1.1.6.tar.bz2
+    cp -rf mtdev-1.1.6/* ./
     ./configure
     cd -
 fi
